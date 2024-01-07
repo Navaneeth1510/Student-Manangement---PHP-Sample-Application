@@ -1,0 +1,76 @@
+
+.container{
+    width:100%;
+    height:100%;
+}
+body{
+    background-image: url('background-7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.login-page{
+    align-items:center;
+}
+/* .head{
+    padding-left:-10px;
+    width:100%;
+    margin-top:0%;
+    height:20%;
+    background-color: white;
+    border-bottom:1px solid black;
+}
+.h{
+    color:black;
+} */
+.heading{
+    border-bottom:1px solid gray;
+    width:80%;
+    left:50%;
+    transform: translate(13%,0%);
+}
+.h2{
+    text-align:center;
+    align-items:center;
+    transform: translate(0%,10%);
+}
+.login-box{
+    background-color:rgb(223, 229, 238);
+    border:1px black;
+    border-radius: 10px 10px;
+    box-shadow: 10px 10px 25px 20px rgba(0,0,0,0.15);
+    width:30%;
+    height:50%;
+    padding:3px 3px;
+    margin-top: 10%;
+    margin-left:35%;
+}
+.input2{
+    margin-left:5%;
+}
+.details{
+    padding:20px 30px;
+}
+.input1{
+    margin-top:3%;
+    margin-left:5%;
+    width:90%;
+    align-items: center;
+}
+.foot{
+    align-items: center;
+    text-align: center;
+    margin-top:-5%;
+    margin-bottom: 3%;
+}
+.submit{
+    /* margin-bottom: 12%; */
+    width:auto;
+    color:white;
+    background-color:green;
+    font-size: 0.8rem;
+    padding:10px 20px;
+    border: none;
+    border-radius: 5px;
+    /* margin:10%; */
+}
